@@ -1,0 +1,290 @@
+nav{
+  position: fixed;
+  padding-left: 10px;
+  z-index:10;
+  height: 140px;
+  width:100%;
+  margin-top:-10px;
+  margin-left:-10px;
+  overflow: visible;
+  background-color: #00b518;
+  border-bottom-left-radius: 100%;
+  border-bottom-right-radius: 100%;
+  box-shadow: 10px 10px 30px black;
+}
+
+.godown{
+  height:50px;
+}
+
+.nav-logoa{
+border-radius: 1000px;
+margin: 0 20px;
+background-color: #00b518;
+}
+
+nav a, .dropdown{
+  float: left;
+  text-align: center;
+  padding: 0px;
+  margin: 5px;
+  margin-top:20px;
+  text-decoration: none;
+  color:#373737;
+  font-family: "glacial-bold";
+  font-variant: all-small-caps;
+  letter-spacing: 2px;
+  text-align: center;
+}
+
+nav a, .dropbtn{
+  padding-left: 5px;
+  padding-right: 5px;
+}
+
+/* nav a:hover{
+  text-decoration: underline;
+  font-family: "glacial-bold", sans-serif;
+  font-weight: bold;
+  color:black;
+} */
+
+.dropdown {
+  float: left;
+  overflow: hidden;
+}
+
+.dropdown .dropbtn {
+  padding: 5px;
+  background-color: inherit;
+  margin: 0;
+  color: #373737;
+}
+
+.navbar a:hover, .dropdown:hover .dropbtn {
+  text-decoration: underline;
+}
+
+.dropdown-content, .dropdown-content-mobile {
+  display: none;
+  position: absolute;
+  background-color: #ffc5a6;
+  min-width: 100px;
+}
+
+.dropdown-content a, .dropdown-content-mobile a {
+  float: none;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+  text-align: center;
+}
+
+.dropdown-content a:hover {
+  text-decoration: underline;
+}
+
+/* adds dropdown content on hover -desktop */
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+
+nav a:hover, .dropbtn:hover{
+  font-weight: bold;
+  text-decoration:underline;
+}
+
+/* a.nav-logoa:hover{
+  background-color: #ffe0cf;
+} */
+
+.mobilenav{
+  display:none;
+}
+
+/* TABLET */
+@media screen and (max-width: 900px) {
+  .dropdown{
+    overflow: inherit;
+  }
+
+  #what-we-do:hover, #join-us:hover{
+  cursor: pointer;
+  }
+
+  .godown{
+    height: 50px;
+  }
+
+  .desktopnav{
+    display:none;
+  }
+
+  .mobilenav{
+    width:100%;
+    display:inline-flex;
+    font-family: "glacial-bold", sans-serif;
+    font-variant: all-small-caps;
+    letter-spacing: 2px;
+    flex-direction: column;
+    height:20px;
+  }
+
+  .mobilenavdisplay{
+    margin-top:75px;
+    position: absolute;
+    top:0;
+    display:flex;
+    flex-direction: column;
+  }
+
+  .mobilenav-button{
+    position:fixed;
+    z-index: 40;
+    width: 75px;
+    height: 71px;
+    border:none;
+    margin:0 auto;
+    background-color:#ffe0cf;
+    display:flex;
+    flex-direction:column;
+    padding-top: 5px;
+    padding-bottom: 20px;
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+  }
+
+  .mobilenav-lines{
+    position: relative;
+    z-index: 30;
+    bottom: 20%;
+    padding-top: 7px;
+    margin-top:7px;
+    text-align:center;
+    font-size: 30pt;
+    line-height: 5px;
+  }
+
+  .mobilenav-lines span{
+    line-height: 50%;
+    font-family: sans-serif;
+    font-weight: bold;
+    margin-top:6px;
+  }
+
+  .dropdown-content-mobile{
+    display:flex;
+    flex-direction: column;
+    position:static;
+  }
+
+  nav{
+  border-bottom-left-radius: 0;
+  border-bottom-right-radius: 0;
+  }
+
+  .mobilenavdisplay a, .mobilenavdisplay p{
+    display: inline;
+    font-size: 19px;
+  }
+
+  .mobilenav100{
+    height:100%;
+  }
+
+  .mobilenav-button span:nth-child(1){
+    top:0px;
+  }
+
+  .mobilenav-button.open span:nth-child(1){
+    animation: mobilenav1 .25s 1 forwards;
+  }
+
+  .mobilenav-button.closed span:nth-child(1){
+    animation: mobilenav1-1 .25s 1 forwards;
+  }
+
+  .mobilenav-button span:nth-child(2){
+    top:-5px;
+  }
+
+  .mobilenav-button.open span:nth-child(2){
+    animation: mobilenav2 .25s 1 forwards;
+  }
+
+  .mobilenav-button.closed span:nth-child(2){
+    animation: mobilenav2-2 .25s 1 forwards;
+  }
+
+  .mobilenav-button span:nth-child(3){
+    top:-10px;
+  }
+
+  .mobilenav-button.open span:nth-child(3){
+    animation: mobilenav3 .25s 1 forwards;
+  }
+
+  .mobilenav-button.closed span:nth-child(3){
+    animation: mobilenav3-3 .25s 1 forwards;
+  }
+
+  .grthan-what.reg, .grthan-join.reg{
+    display:inline-block;
+    margin-bottom:0;
+    margin-top: 0;
+    animation: grthan-1 .25s 1 forwards;
+  }
+
+  .grthan-what.spin, .grthan-join.spin{
+    display:inline-block;
+    margin-bottom: 0;
+    margin-top:0;
+    animation: grthan-2 .25s 1 forwards;
+  }
+}
+
+@keyframes mobilenav1{
+  0%{ top:0px; margin-left:0px; transform: rotate(0deg);}
+  100%{ top: 12px; transform: rotate(45deg); margin-left:5px;}
+}
+
+@keyframes mobilenav1-1{
+  0%{ top: 12px; transform: rotate(45deg); margin-left:5px;}
+  100%{ top:0px; margin-left:0px; transform: rotate(0deg);}
+}
+
+@keyframes mobilenav2{
+  0%{opacity: 100}
+  100%{opacity:0}
+}
+
+@keyframes mobilenav2-2{
+  0%{opacity: 0}
+  100%{opacity:100}
+}
+
+@keyframes mobilenav3{
+  0%{ margin-left:0px; transform: rotate(0deg);}
+  100%{  transform: rotate(-45deg); top:-29px; padding-bottom:20px;}
+}
+
+@keyframes mobilenav3-3{
+  0%{  transform: rotate(-45deg); top:-29px; padding-bottom:20px;}
+  100%{ margin-left:0px; transform: rotate(0deg);}
+}
+
+@keyframes grthan-1{
+  0%{ transform:rotate(0deg);}
+  100%{ transform: rotate(90deg);}
+}
+
+@keyframes grthan-2{
+  0%{ transform: rotate(90deg); }
+  100%{ transform:rotate(0deg); }
+}
+
+@media screen and (min-width: 901px) {
+  .dropdown:hover .dropdown-content {
+    display: block;
+  }
+}
