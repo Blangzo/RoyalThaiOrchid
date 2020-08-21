@@ -1,0 +1,309 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+  <title>Royal Thai Orchid</title>
+  <meta charset="UTF-8" />
+  <meta name="Wesley Ho" content="Royal Thai Orchid Website" />
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" type="text/css" href="css/nav_bar.css"/>
+  <link rel="stylesheet" type="text/css" href="css/all.css"/>
+  <link rel="stylesheet" type="text/css" href="css/footer.css"/>
+  <link rel="stylesheet" type="text/css" href="css/menu.css"/>
+  <link rel="icon" sizes="16x16 32x32 64x64" href="images/bzico.ico"/>
+  <script src="scripts/jquery-3.3.1.min.js" type="text/javascript"></script>
+  <script src="scripts/eboard.js" type="text/javascript"></script>
+  <script src="scripts/mobilenav.js" type="text/javascript"></script>
+</head>
+
+<body>
+  <!-- "nav bar"-->
+  <div>
+    <nav class="desktopnav">
+      <a class="nav-logoa"><img  src="images/bonsai1.gif" alt="logo" width="150" height="150"></a> <!--original is 50x71-->
+    </nav>
+  </div>
+
+  <div class="godown"></div> <!-- pushes site down slightly for spacing -->
+
+<!-- hero image -->
+  <header class="centered">
+    <div class="homeimage">
+      <figure>
+        <img class="image-fullwidth" src="images/bonsai_hero.jpg" alt="Hero image for bonsai webpage"/>
+        <!-- Image Title: Bonsai by Arnaud Berthomier
+        Image Source: Image Source: https://unsplash.com/photos/SMbW_DyXGf4 (Obtained on Unsplash) -->
+        <h1 class="overlay-text centered">Royal Thai Orchid</h1>
+        <figcaption class="headersource hide-cite"><a href="https://unsplash.com/photos/SMbW_DyXGf4">Source</a></figcaption>
+      </figure>
+    </div>
+  </header>
+
+  <main class="centered">
+    <!-- About info -->
+    <div class="committee">
+      <blockquote>309 Lancaster Avenue, Frazer, PA 19355
+      </br>(610) 240-9930</blockquote>
+      <h2>Hours</h2>
+      <div class="all-members">
+        <div id="elena_gupta" class="member">
+          <h3>Take-Out</h3>
+          <p>Tuesday - Saturday, 5-8pm</p>
+        </div>
+        <div id="gita_connolly" class="member">
+          <h3>Dine-in</h3>
+          <p>Friday & Saturday, 5-8pm</p>
+          <p>Call for hours/reservation, things are changing due to COVID-19</p>
+        </div>
+      </div>
+      </br>
+    </div>
+    <!-- Soups -->
+    <div class="committee other">
+      <blockquote><h2>Soups<img src="images/airoh.svg" alt="dropdown arrow" class="airoh" id="a1"></h2></blockquote>
+      <div id="t1" class="food-type hidden">
+        <div class="item">
+          <h4 class="name">Lemon Grass Soup <img src="images/fiyah.svg" alt="spicy" class="fiyah"><img src="images/fiyah.svg" alt="spicy" class="fiyah"></h4>
+          <p class="desc">Traditional Thai hot & sour soup with shrimp, lemongrass, mushrooms, onions, and bell peppers ... <em>$4.50</em></br>[Vegetables & Tofu ... <em>$3.95</em>]</p>
+        </div>
+        <div class="item">
+          <h4 class="name">Chicken Coconut Soup</h4>
+          <p class="desc">Slices of chicken breast in coconut milk with galangal, lime leaves, mushrooms, and lime juice  ... <em>$16.95</em></br>[Vegetables & Tofu ... <em>$3.95</em>]</p>
+        </div>
+        <div class="item">
+          <h4 class="name">Thai Ravioli Soup</h4>
+          <p class="desc">Shrimp and chicken wrapped in a delicate ravioli shell in a clear broth with mixed vegetables ... <em>$4.50</em></p>
+        </div>
+        <div class="item">
+          <h4 class="name">Jasmine Rice Soup (V)</h4>
+          <p class="desc">Jasmine rice served in clear broth with broccoli, carrots, ginger, mushrooms, and tofu; topped with crispy fried garlic ... <em>$3.95</em></p>
+        </div>
+        </br>
+      </div>
+    </div>
+
+    <!-- Salads -->
+    <div class="committee other">
+      <blockquote><h2>Salads<img src="images/airoh.svg" alt="dropdown arrow" class="airoh" id="a2"></h2></blockquote>
+      <div id="t2" class="food-type hidden">
+        <div class="item">
+          <h4 class="name">House Salad</h4>
+          <p class="desc">The best picks of greens with special peanut dressing; topped with tofu, carrots, and tomatoes ... <em>$4.950</em></p>
+        </div>
+        <div class="item">
+          <h4 class="name">Oriental Greens</h4>
+          <p class="desc">Snow peas gently tossed in a delicious sesame ginger vinaigrette; topped with fresh mushroom  ... <em>$5.95</em></p>
+        </div>
+        <div class="item">
+          <h4 class="name">Crying Tiger <img src="images/fiyah.svg" alt="spicy" class="fiyah"><img src="images/fiyah.svg" alt="spicy" class="fiyah"></h4>
+          <p class="desc">Grilled marinated beef, thinly sliced; tossed with toasted rice, onions, scallions, lime juice, and fresh chili peppers ... <em>$8.95</em></p>
+        </div>
+        <div class="item">
+          <h4 class="name">Seafood Salad <img src="images/fiyah.svg" alt="spicy" class="fiyah"><img src="images/fiyah.svg" alt="spicy" class="fiyah"></h4>
+          <p class="desc">Scallop, shrimp, calamari, adn green shelled mussels tossed in lime juice, fresh lemongrass, basil, and traditional seasonings ... <em>$10.95</em></p>
+        </div>
+        <div class="item">
+          <h4 class="name">Somtum <img src="images/fiyah.svg" alt="spicy" class="fiyah"></h4>
+          <p class="desc">Cabbage salad tossed in lime juice and traditional seasonings with garlic, ground peanuts, and fresh Thai chili peppers ... <em>$5.95</em></p>
+        </div>
+        <div class="item">
+          <h4 class="name">Grilled Eggplant Salad <img src="images/fiyah.svg" alt="spicy" class="fiyah"></h4>
+          <p class="desc">Grilled & peeled Thai eggplant delicately tossed in a spicy tomato dressing; topped with dices of tofu ... <em>$7.95</em></p>
+        </div>
+        <div class="item">
+          <h4 class="name">Mushroom Madness <img src="images/fiyah.svg" alt="spicy" class="fiyah"></h4>
+          <p class="desc">A combination of: Enoki, Shiitake, Straw, Wood Ear, White Angel, and Oyster mushrooms tossed with spicy seasonings; served on a bed of lettuce ... <em>$7.95</em></p>
+        </div>
+        </br>
+      </div>
+    </div>
+
+    <!-- Appetizers-->
+    <div class="committee other">
+      <blockquote><h2>Appetizers<img src="images/airoh.svg" alt="dropdown arrow" class="airoh" id="a3"></h2></blockquote>
+      <div id="t3" class="food-type hidden">
+        <div class="item">
+          <h4 class="name">Tulip Dumplings</h4>
+          <p class="desc">A combination of shrimp, chicken, and crabmeat wrapped in a tulip shape, then delicately steamed and served with a soy sauce vinaigrette ... <em>$6.95</em></p>
+        </div>
+        <div class="item">
+          <h4 class="name">Thai Dumplings</h4>
+          <p class="desc">Pan fried dumplings filled with ground pork, water chestnuts, and black mushrooms; served with a soy sesame sauce ... <em>$6.95</em></p>
+        </div>
+        <div class="item">
+          <h4 class="name">Crispy Rolls</h4>
+          <p class="desc">Filled with ground pork, bean threads, and julienne vegetables, fried until crispy golden brown and served with a sweet and sour sauce ... <em>$3.95</em></p>
+        </div>
+        <div class="item">
+          <h4 class="name">Satay</h4>
+          <p class="desc">Chicken marinated in Thai spices and coconut milk, grilled and served on skewers with a peanut sauce and cucumber salad ... <em>$6.95</em></p>
+        </div>
+        <div class="item">
+          <h4 class="name">Golden Triangles (V)</h4>
+          <p class="desc">Crispy tofu served with a spicy sweet & sour sauce topped with crushed peanuts ... <em>$4.95</em></p>
+        </div>
+        <div class="item">
+          <h4 class="name">Veggie Rolls (V)</h4>
+          <p class="desc">Fried spring rolls filled with mixed vegetables, tofu, and cellophane noodles; served with a sweet and sour sauce ... <em>$3.95</em></p>
+        </div>
+        <div class="item">
+          <h4 class="name">Buddha’s Dumplings (V)</h4>
+          <p class="desc">Sautéed delicious dumplings filled with a healthy mix of vegetables; served with a soy sesame sauce ... <em>$6.95</em></p>
+        </div>
+        <div class="item">
+          <h4 class="name">Steamy Crepes</h4>
+          <p class="desc">Steamed delicate thin rice crepes filled with chicken, turnips, and ground peanuts, topped with crispy garlic; served on a bed of lettuce with a sweet soy sauce vinaigrette ... <em>$7.95</em></p>
+        </div>
+        <div class="item">
+          <h4 class="name">Thai Treasure</h4>
+          <p class="desc">Combination of traditional Thai goodies: Thai Dumplings, Chicken Satay, Crispy Rolls, Tulip Dumplings, Somtum, Mee Grob, and Steamy Crepes ... <em>$14.95</em></p>
+        </div>
+        </br>
+      </div>
+    </div>
+
+    <!-- Traditional Entrees-->
+    <div class="committee other">
+      <blockquote><h2>Traditional Entrees<img src="images/airoh.svg" alt="dropdown arrow" class="airoh" id="a4"></h2></blockquote>
+      <div id="t4" class="food-type hidden">
+        <div class="item">
+          <h4 class="name">Seafood Lover <img src="images/fiyah.svg" alt="spicy" class="fiyah"><img src="images/fiyah.svg" alt="spicy" class="fiyah"></h4>
+          <p class="desc">Sautéed seafood medley of salmon, squid, shrimp, scallops, green shelled mussels with lemongrass, Thai basil, onions, garlic, and red bell peppers in a delicious spicy sauce ... <em>$16.95</em></p>
+        </div>
+        <div class="item">
+          <h4 class="name">Bold & Spicy Shrimp <img src="images/fiyah.svg" alt="spicy" class="fiyah"><img src="images/fiyah.svg" alt="spicy" class="fiyah"><img src="images/fiyah.svg" alt="spicy" class="fiyah"></h4>
+          <p class="desc">Fresh shrimp sautEed with lemongrass, Thai basil, mushrooms, green beans, loaded with hot chili peppers, peppercorns, and exotic herbs ... <em>$16.95</em></p>
+        </div>
+        <div class="item">
+          <h4 class="name">Fish of the Day <img src="images/fiyah.svg" alt="spicy" class="fiyah"><img src="images/fiyah.svg" alt="spicy" class="fiyah"></h4>
+          <p class="desc">Deep-fried whole fish topped with a three flavored sauce of garlic, ginger, and tamarind combined in perfect harmony ... <em>Market Price</em></p>
+        </div>
+        <div class="item">
+          <h4 class="name">Evil Jungle Princess <img src="images/fiyah.svg" alt="spicy" class="fiyah"><img src="images/fiyah.svg" alt="spicy" class="fiyah"><img src="images/fiyah.svg" alt="spicy" class="fiyah"></h4>
+          <p class="desc">Boldly spiced chicken sautEed with a vegetable medley in exotic herbs and spices ... <em>$13.95</em></p>
+        </div>
+        <div class="item">
+          <h4 class="name">Chu Chee Duck <img src="images/fiyah.svg" alt="spicy" class="fiyah"></h4>
+          <p class="desc">Crispy roasted semi boneless duck, served in a special red curry sauce, flavored with fresh pineapples and basil ... <em>$17.95</em></p>
+        </div>
+        <div class="item">
+          <h4 class="name">Thai Eggplant <img src="images/fiyah.svg" alt="spicy" class="fiyah"></h4>
+          <p class="desc">Thai-style sweet eggplants sautEed until golden brown and braised with garlic, onions, peppers, and aromatic herbs ... </br>[Shrimp ... <em>$13.95</em>, Chicken ... <em>$11.95</em>, or Mixed Vegetables & Tofu ... <em>$11.95</em>]</p>
+        </div>
+        <div class="item">
+          <h4 class="name">Grand Palace Vegetables</h4>
+          <p class="desc">Combination of chicken, beef, and shrimp stir-fried with mixed vegetables, bean threads, and traditional seasonings ... <em>$13.95</em></p>
+        </div>
+        <div class="item">
+          <h4 class="name">Vegetarian Lover (V)</h4>
+          <p class="desc">Sautéed broccoli, snow peas, green beans, carrots, tofu, and more in a soy and mushroom sauce ... <em>$10.95</em></p>
+        </div>
+        <div class="item">
+          <h4 class="name">Jungle to Jungle <img src="images/fiyah.svg" alt="spicy" class="fiyah"><img src="images/fiyah.svg" alt="spicy" class="fiyah"><img src="images/fiyah.svg" alt="spicy" class="fiyah"> (V)</h4>
+          <p class="desc">Vegetable medley sautéed with tofu and loaded with a spicy aromatic sauce; flavored with fresh basil ... <em>$11.95</em></p>
+        </div>
+        </br>
+      </div>
+    </div>
+
+    <!-- Chef's Specialties -->
+    <div class="committee other">
+      <blockquote><h2>Chef's Specialties<img src="images/airoh.svg" alt="dropdown arrow" class="airoh" id="a5"></h2></blockquote>
+      <div id="t5" class="food-type hidden">
+        <div class="item">
+          <h4 class="name">Panang Shrimp <img src="images/fiyah.svg" alt="spicy" class="fiyah"><img src="images/fiyah.svg" alt="spicy" class="fiyah"></h4>
+          <p class="desc">Fresh & fancy jumbo shrimps, steamed ina pool of special panang curry sauce with fresh basil; served with angel hair pasta ... <em>$20.95</em></p>
+        </div>
+        <div class="item">
+          <h4 class="name">Lamb of Siam <img src="images/fiyah.svg" alt="spicy" class="fiyah"><img src="images/fiyah.svg" alt="spicy" class="fiyah"></h4>
+          <p class="desc">Marinated rack of lamb, grilled to your satisfaction, flavored with mustard and rosemary and served with a green curry mushroom sauce  ... <em>$19.95</em></p>
+        </div>
+        <div class="item">
+          <h4 class="name">Royal Crab Cakes</h4>
+          <p class="desc">Baked Thai-style crab cakes, served in a sea of fragrant herb sauce and angel hair pasta ... <em>$15.95</em></p>
+        </div>
+        <div class="item">
+          <h4 class="name">Salmon Supreme</h4>
+          <p class="desc">Fillet of salmon wrapped in grape leaves, then grilled to perfection; served with a mild Tamarind fruit sauce and Somtum salad ... <em>$15.95</em></p>
+        </div>
+        <div class="item">
+          <h4 class="name">Tutti Fruity Duck</h4>
+          <p class="desc">Roasted semi-boneless duck served with raspberry sauce; flavored with a little touch of spices and Chambord Liqueur ... <em>$17.95</em></p>
+        </div>
+        </br>
+      </div>
+    </div>
+
+    <!-- Delectable Thai Curry -->
+    <div class="committee other">
+      <blockquote><h2>Delectable Thai Curry<img src="images/airoh.svg" alt="dropdown arrow" class="airoh" id="a6"></h2></blockquote>
+      <div id="t6" class="food-type hidden">
+        <p class="desc" style="text-align: center;">[Shrimp ... <em>$13.95</em>, Beef ... <em>$12.95</em>, Chicken ... <em>$10.95</em>, or Mixed Vegetables & Tofu ... <em>$10.95</em>]</p>
+        <div class="item">
+          <h4 class="name">Green Curry <img src="images/fiyah.svg" alt="spicy" class="fiyah"><img src="images/fiyah.svg" alt="spicy" class="fiyah"><img src="images/fiyah.svg" alt="spicy" class="fiyah"></h4>
+          <p class="desc">A hot and spicy green curry sauce with coconut milk, bamboo shoots, bell peppers, carrots, green beans, and fresh Thai basil</p>
+        </div>
+        <div class="item">
+          <h4 class="name">Red Curry <img src="images/fiyah.svg" alt="spicy" class="fiyah"><img src="images/fiyah.svg" alt="spicy" class="fiyah"></h4>
+          <p class="desc">Delicious red curry sauce with coconut milk, flavored with fresh Thai basil, bamboo shoots, and mixed green vegetables</p>
+        </div>
+        <div class="item">
+          <h4 class="name">Mussaman Curry <img src="images/fiyah.svg" alt="spicy" class="fiyah"></h4>
+          <p class="desc">A combination of rich red curry and peanut sauce with coconut milk, onions, carrots, and potatoes topped with roasted peanuts</p>
+        </div>
+        <div class="item">
+          <h4 class="name">Panang Curry</h4>
+          <p class="desc">Panang curry sauce with coconut milk, bell peppers, kaffir lime leaves and mixed vegetables</p>
+        </div>
+        </br>
+      </div>
+    </div>
+
+    <!-- Noodles & Fried Rice -->
+    <div class="committee other">
+      <blockquote><h2>Noodles & Fried Rice<img src="images/airoh.svg" alt="dropdown arrow" class="airoh" id="a7"></h2></blockquote>
+      <div id="t7" class="food-type hidden">
+        <p class="desc" style="text-align: center;">[Shrimp ... <em>$13.95</em>, Beef ... <em>$12.95</em>, Chicken ... <em>$11.95</em>, or Mixed Vegetables & Tofu ... <em>$11.95</em>]</p>
+        <div class="item">
+          <h4 class="name">Drunken Noodles <img src="images/fiyah.svg" alt="spicy" class="fiyah"><img src="images/fiyah.svg" alt="spicy" class="fiyah"></h4>
+          <p class="desc" style="text-align: center;">Stir-fried jumbo rice noodles with traditional spicy seasonings, basil, onions, and bell peppers</p>
+        </div>
+        <div class="item">
+          <h4 class="name">Pad Se-Ew</h4>
+          <p class="desc">Jumbo rice noodles sautEed with broccoli, bell peppers, eggs, and soy sauce</p>
+        </div>
+        <div class="item">
+          <h4 class="name">Pad Thai</h4>
+          <p class="desc">Stir-fried rice noodles with traditional seasonings, tofu, and eggs; served with chopped scallions, and ground peanuts on the side </p>
+        </div>
+        <p class="desc" style="text-align: center;">[Choice of: Shrimp, Chicken, or Mixed Vegetables & Tofu(No Egg) ... <em>$10.95</em>]</p>
+        <div class="item">
+          <h4 class="name">Pineapple Fried Rice</h4>
+          <p class="desc">Stir-fried Jasmine rice with eggs, mixed vegetables, and fresh pineapples</p>
+        </div>
+        <div class="item">
+          <h4 class="name">Thai Basil Fried Rice <img src="images/fiyah.svg" alt="spicy" class="fiyah"><img src="images/fiyah.svg" alt="spicy" class="fiyah"></h4>
+          <p class="desc">Stir-fried Jasmine rice with fresh basil, Thai chili peppers, eggs, onions, carrots, and bell peppers</p>
+        </div>
+        </br>
+      </div>
+    </div>
+
+  <footer>
+    <div class="icons">
+      <a href="https://twitter.com/pandawesleyho"><img src="images/twitter.png" alt="Twitter" id="twitter"></a>
+      <!-- Image Title:  by Diego PH
+      Image Source: Image Source: https://unsplash.com/photos/fIq0tET6llw (Obtained on Unsplash) -->
+      <a href="https://www.facebook.com/panda.boy/"><img src="images/facebook.png" alt="Facebook" id="facebook"></a>
+      <!-- Image Title: Facebook by Diego PH
+      Image Source: Image Source: https://unsplash.com/photos/fIq0tET6llw (Obtained on Unsplash) -->
+      <a href="https://www.instagram.com/panda_boii/"><img src="images/instagram.png" alt="Instagram" id="instagram"></a>
+      <!-- Image Title: The Focus by Diego PH
+      Image Source: Image Source: https://unsplash.com/photos/fIq0tET6llw (Obtained on Unsplash) -->
+      <a href="mailto:wh395@cornell.edu"><img src="images/email.png" alt="Email" class="email"></a>
+      <!-- Image Title: The Focus by Diego PH
+      Image Source: Image Source: https://unsplash.com/photos/fIq0tET6llw (Obtained on Unsplash) -->
+      <p style="color: #0000007F;">Website by Wesley Ho</p>
+    </div>
+  </footer>
+</body>
+</html>
