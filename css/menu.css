@@ -6,4 +6,9 @@
 .airoh {
   width: 1em;
   height: 1em;
+  transform: rotate(180deg);
+}
+
+.focus {
+  transform: rotate(90deg);
 }
